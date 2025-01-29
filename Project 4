@@ -1,0 +1,39 @@
+Finding the Largest Number in an Array 
+Create an algorithm, pseudocode, and flowchart for finding the largest number in an array of n elements provided by the user. 
+
+Algorithm 
+1.	Start. 
+2.	Prompt the user to enter the size of the array n. 
+
+3.	Prompt the user to enter n elements of the array. 
+
+4.	Initialize a variable largest with the value of the first element of the array. 
+
+5.	Iterate through the array starting from the second element: 
+
+o If the current element is greater than largest, update largest to the current element. 
+
+6.	After the loop, largest contains the largest value in the array. 
+
+7.	Display the largest number. 
+8.	End. 
+Pseudocode 
+START 
+  PROMPT "Enter the number of elements in the array (n): " 
+
+  READ n 
+  DECLARE array[n] 
+  PROMPT "Enter the elements of the array: " 
+  FOR i FROM 1 TO n DO 
+    READ array[i] 
+  ENDFOR 
+  SET largest = array[1] 
+  FOR i FROM 2 TO n DO 
+    IF array[i] > largest THEN 
+      SET largest = array[i] 
+    ENDIF 
+  ENDFOR  
+  PRINT "The largest number in the array is:", largest 
+
+END 
+
