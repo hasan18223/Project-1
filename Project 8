@@ -1,0 +1,25 @@
+8.	Temperature Conversion 
+Develop an algorithm, pseudocode, and flowchart for converting a temperature value from Celsius to Fahrenheit using the formula F = (C × 9/5) + 32. 
+
+Algorithm 
+1.	Start. 
+2.	Prompt the user to enter the temperature in Celsius (C). 
+
+3.	Calculate the temperature in Fahrenheit using the formula: 
+
+F=(C×95)+32F = (C \times \frac{9}{5}) + 32F=(C×59)+32 
+
+4.	Display the converted temperature in Fahrenheit (F). 
+
+5.	End. 
+Pseudocode 
+START 
+  PROMPT "Enter the temperature in Celsius 
+(C): " 
+  READ C 
+  SET F = (C * 9 / 5) + 32 
+  PRINT "The temperature in Fahrenheit (F) is:", F 
+
+END 
+
+ 
