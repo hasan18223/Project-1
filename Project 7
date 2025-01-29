@@ -1,0 +1,38 @@
+Number Guessing Game
+Write an algorithm, pseudocode, and flowchart for a number guessing game where the program generates a random number between 1 and 100, and the user has to guess the number with hints provided (e.g., higher/lower). 
+
+Algorithm 
+1.	Start. 
+2.	Generate a random number target between 1 and 100. 
+
+3.	Initialize a flag variable guessed = False. 
+
+4.	Repeat until guessed is True: o Prompt the user to enter a guess. o If the guess is equal to the target: 
+
+▪	Display "Congratulations! You guessed the number." 
+
+▪	Set guessed = True. o If the guess is less than the target: 
+
+▪	Display "Too low, try again." o If the guess is greater than the target: 
+
+▪	Display "Too high, try again." 
+5.	End. 
+Pseudocode 
+START 
+  SET target = RANDOM(1, 100) 
+  SET guessed = FALSE 
+  WHILE guessed = FALSE DO 
+    PROMPT "Enter your guess (1-100): " 
+    READ guess 
+    IF guess = target THEN 
+      PRINT "Congratulations! You guessed 
+the number." 
+      SET guessed = TRUE 
+    ELSE IF guess < target THEN 
+      PRINT "Too low, try again." 
+    ELSE 
+      PRINT "Too high, try again." 
+    ENDIF 
+  ENDWHILE 
+END 
+
