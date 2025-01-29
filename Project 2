@@ -1,0 +1,30 @@
+2.	Factorial Using Recursion 
+Design a pseudocode, algorithm, and flowchart to calculate the factorial of a number using recursion. 
+
+Algorithm 
+1.	Start. 
+2.	Define a recursive function factorial: 
+o	If the input number n is 0 or 1, return 1 (base case). 
+
+o	Otherwise, return n * factorial(n-1) 
+(recursive case). 
+3.	Prompt the user to input a positive integer n. 
+
+4.	Call the factorial function with the input value n. 
+
+5.	Display the result. 
+6.	End. 
+Pseudocode 
+
+FUNCTION factorial(n) 
+  IF n = 0 OR n = 1 THEN 
+    RETURN 1 
+  ELSE 
+    RETURN n * factorial(n - 1) 
+  ENDIF 
+END FUNCTION  
+START 
+  PROMPT "Enter a positive integer: " 
+  READ n 
+  SET result = factorial(n) 
+  PRINT "The factorial of", n, "is:", result END 
