@@ -1,0 +1,31 @@
+9.	Count Vowels in a String 
+Write the algorithm, pseudocode, and flowchart to count the number of vowels in a given string input by the user. 
+
+Algorithm 
+1.	Start. 
+2.	Prompt the user to enter a string. 
+3.	Initialize a counter variable vowelCount = 0.
+
+4.	Loop through each character in the string: 
+
+o Convert the character to lowercase. o If the character is a vowel ('a', 'e', 'i', 
+
+'o', 'u'), increment vowelCount by 1. 
+5.	Display the total number of vowels (vowelCount). 
+
+6.	End. 
+Pseudocode 
+START 
+  PROMPT "Enter a string: " 
+  READ inputString 
+  SET vowelCount = 0 
+  SET vowels = "aeiou" 
+FOR EACH character IN inputString DO 
+    SET character = LOWERCASE(character) 
+    IF character IN vowels THEN 
+      SET vowelCount = vowelCount + 1 
+    ENDIF 
+  ENDFOR 
+  PRINT "The number of vowels in the string 
+is:", vowelCount END 
+
