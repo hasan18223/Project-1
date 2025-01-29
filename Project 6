@@ -1,0 +1,42 @@
+Generate Fibonacci Series 
+Design the algorithm, pseudocode, and flowchart to generate the first n terms of the Fibonacci sequence. 
+
+Algorithm 
+1.	Start. 
+2.	Prompt the user to enter the number of terms n to generate in the Fibonacci series. 
+
+3.	If n is less than or equal to 0, display an error message and stop. 
+
+4.	Initialize two variables: o a = 0 (first term). 
+
+o	b = 1 (second term). 
+5.	If n >= 1, display a. 
+6.	If n >= 2, display b. 
+7.	Use a loop to calculate and display the next terms of the Fibonacci sequence until n terms are generated: o Compute next = a + b. o Update a = b and b = next. 
+
+o	Display next. 
+8.	End. 
+Pseudocode 
+START 
+  PROMPT "Enter the number of terms (n): " 
+  READ n 
+  IF n <= 0 THEN 
+    PRINT "Invalid input. Enter a positive integer." 
+
+    EXIT 
+  ENDIF 
+  SET a = 0 
+  SET b = 1 
+  IF n >= 1 THEN 
+    PRINT a 
+  ENDIF 
+  IF n >= 2 THEN 
+    PRINT b 
+  ENDIF 
+  FOR i FROM 3 TO n DO 
+    SET next = a + b 
+    PRINT next 
+    SET a = b 
+    SET b = next 
+  ENDFOR 
+ END 
