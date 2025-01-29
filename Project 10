@@ -1,0 +1,20 @@
+Find the GCD of Two Numbers 
+Create an algorithm, pseudocode, and flowchart to find the greatest common divisor (GCD) of two numbers using the Euclidean algorithm. 
+
+Algorithm 
+1.	Input: Two positive integers, a and b. 
+2.	Step 1: Divide a by b and find the remainder r, i.e., r = a % b. 
+
+3.	Step 2: If r == 0, then the GCD is b. Stop. 
+
+4.	Step 3: Otherwise, set a = b and b = r, and go back to Step 1. 
+
+5.	Output: The value of b when r == 0 is the GCD. 
+
+Pseudocode: 
+Function GCD(a, b):     While b != 0:         r = a % b 
+
+a	= b 
+b	= r     End While 
+    Return a 
+End Function   
